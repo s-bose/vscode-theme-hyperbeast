@@ -3,25 +3,36 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+		// ANCHOR - Activity
 		"activityBar.background": "#263238",
 		"activityBar.border": "#26323860",
 		"activityBar.foreground": "#EFEFEF",
 		"activityBarBadge.background": "#D83078",
 		"activityBarBadge.foreground": "#263238",
+
+		// ANCHOR - Badge
 		"badge.background": "#26323830",
 		"badge.foreground": "#183060",
+
+		// ANCHOR - Breadcrumb
 		"breadcrumb.activeSelectionForeground": "#183060",
 		"breadcrumb.background": "#263238",
 		"breadcrumb.focusForeground": "#EFEFEF",
 		"breadcrumb.foreground": "#183048",
 		"breadcrumbPicker.background": "#263238",
+
+		// ANCHOR - Button, Contrastm diffEditor
 		"button.background": "#18306050",
 		"contrastBorder": "#18306040",
 		"debugToolBar.background": "#263238",
 		"diffEditor.insertedTextBackground": "#48184815",
 		"diffEditor.removedTextBackground": "#30786020",
+
+		// ANCHOR - Dropdown
 		"dropdown.background": "#263238",
 		"dropdown.border": "#FFFFFF10",
+
+		// ANCHOR - Editor
 		"editor.background": "#263238",
 		"editor.findMatchBackground": "#263238",
 		"editor.findMatchBorder": "#183060",
@@ -66,14 +77,22 @@
 		"editorWidget.background": "#263238",
 		"editorWidget.border": "#60C0C0",
 		"editorWidget.resizeBorder": "#183060",
+
+		// ANCHOR - Extension
 		"extensionButton.prominentBackground": "#48184890",
 		"extensionButton.prominentHoverBackground": "#307860",
+
+		// ANCHOR - FocusBorder
 		"focusBorder": "#FFFFFF00",
+
+		// ANCHOR - Git
 		"gitDecoration.conflictingResourceForeground": "#60C0C0",
 		"gitDecoration.deletedResourceForeground": "#307860",
 		"gitDecoration.ignoredResourceForeground": "#183060",
 		"gitDecoration.modifiedResourceForeground": "#183048",
 		"gitDecoration.untrackedResourceForeground": "#D83078",
+
+		// ANCHOR - Input
 		"input.background": "#484D5B",
 		"input.border": "#FFFFFF10",
 		"input.foreground": "#EFEFEF",
@@ -83,6 +102,8 @@
 		"inputValidation.errorBorder": "#30786050",
 		"inputValidation.infoBorder": "#D8307850",
 		"inputValidation.warningBorder": "#60C0C050",
+
+		// ANCHOR - List
 		"list.activeSelectionBackground": "#263238",
 		"list.activeSelectionForeground": "#183060",
 		"list.focusBackground": "#484D5B",
@@ -96,6 +117,8 @@
 		"listFilterWidget.background": "#26323830",
 		"listFilterWidget.noMatchesOutline": "#26323830",
 		"listFilterWidget.outline": "#26323830",
+
+		// ANCHOR - Menu
 		"menu.background": "#263238f8",
 		"menu.border": "#18306050",
 		"menu.foreground": "#EFEFEF",
@@ -106,6 +129,8 @@
 		"menubar.selectionBackground": "#484D5B",
 		"menubar.selectionBorder": "#18306050",
 		"menubar.selectionForeground": "#EFEFEF",
+
+		// ANCHOR - Minimap
 		"minimap.background": "#263238",
 		"minimapGutter.addedBackground": "#307860",
 		"minimapGutter.deletedBackground": "#60C0C0",
@@ -113,14 +138,20 @@
 		"minimapSlider.activeBackground": "#481848b0",
 		"minimapSlider.background": "#48184880",
 		"minimapSlider.hoverBackground": "#481848a0",
+
+		// ANCHOR - Notif
 		"notificationLink.foreground": "#183060",
 		"notifications.background": "#263238",
 		"notifications.foreground": "#EFEFEF",
+
+		// ANCHOR - Panel
 		"panel.background": "#263238",
 		"panel.border": "#26323860",
 		"panelTitle.activeBorder": "#183060",
 		"panelTitle.activeForeground": "#FFFFFF",
 		"panelTitle.inactiveForeground": "#EFEFEF",
+
+		// ANCHOR - Peekview
 		"peekView.border": "#26323830",
 		"peekViewEditor.background": "#EFEFEF05",
 		"peekViewEditor.matchHighlightBackground": "#18306050",
@@ -130,13 +161,23 @@
 		"peekViewResult.selectionBackground": "#18306070",
 		"peekViewTitle.background": "#EFEFEF05",
 		"peekViewTitleDescription.foreground": "#EFEFEF60",
+
+		// ANCHOR - Pickergroup
 		"pickerGroup.foreground": "#183060",
+		
+		// ANCHOR - Progressbar
 		"progressBar.background": "#183060",
+
+		// ANCHOR - Scrollbar
 		"scrollbar.shadow": "#26323800",
 		"scrollbarSlider.activeBackground": "#183060cc",
 		"scrollbarSlider.background": "#183060bb",
 		"scrollbarSlider.hoverBackground": "#183060ee",
+
+		// ANCHOR - Selection
 		"selection.background": "#183060",
+
+		// ANCHOR - Settings
 		"settings.checkboxBackground": "#263238",
 		"settings.checkboxForeground": "#EFEFEF",
 		"settings.dropdownBackground": "#263238",
@@ -147,6 +188,8 @@
 		"settings.numberInputForeground": "#EFEFEF",
 		"settings.textInputBackground": "#263238",
 		"settings.textInputForeground": "#EFEFEF",
+
+		// ANCHOR - Sidebar
 		"sideBar.background": "#263238",
 		"sideBar.border": "#18306050",
 		"sideBar.foreground": "#D83078",
@@ -154,6 +197,8 @@
 		"sideBarSectionHeader.border": "#26323860",
 		"sideBarSectionHeader.foreground": "#D83078",
 		"sideBarTitle.foreground": "#EFEFEF",
+
+		// ANCHOR - Statusbar
 		"statusBar.background": "#781848",
 		"statusBar.border": "#26323860",
 		"statusBar.debuggingBackground": "#60C0C0",
@@ -163,6 +208,8 @@
 		"statusBarItem.hoverBackground": "#18306020",
 		"statusBarItem.remoteBackground": "#183060",
 		"statusBarItem.remoteForeground": "#263238",
+
+		// ANCHOR - Tab
 		"tab.activeBackground": "#18306050",
 		"tab.activeBorder": "#183060",
 		"tab.activeForeground": "#FFFFFF",
@@ -175,6 +222,8 @@
 		"tab.unfocusedActiveForeground": "#EFEFEF",
 		"tab.unfocusedInactiveBackground": "#18306010",
 		"tab.unfocusedInactiveForeground": "#EFEFEF7f",
+
+		// ANCHOR - Terminal
 		"terminal.ansiBlack": "#263238",
 		"terminal.ansiBlue": "#D83078",
 		"terminal.ansiBrightBlack": "#183060",
@@ -193,14 +242,22 @@
 		"terminal.ansiYellow": "#60C0C0",
 		"terminalCursor.background": "#263238",
 		"terminalCursor.foreground": "#60C0C0",
+
+		// ANCHOR - TextLink
 		"textLink.activeForeground": "#EFEFEF",
 		"textLink.foreground": "#183060",
+
+		// ANCHOR - Titlebar
 		"titleBar.activeBackground": "#263238",
 		"titleBar.activeForeground": "#EFEFEF",
 		"titleBar.border": "#26323860",
 		"titleBar.inactiveBackground": "#263238",
 		"titleBar.inactiveForeground": "#183060",
+
+		// ANCHOR - Tree
 		"tree.indentGuidesStroke": "#3A5665",
+
+		// ANCHOR - Widget
 		"widget.shadow": "#26323830",
 	},
 	"tokenColors": [
